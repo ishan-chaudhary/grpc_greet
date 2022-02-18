@@ -11,3 +11,8 @@ go run greet/greet_client/client.go
 protoc calculator/calculatorpb/calculator.proto --go-grpc_out=. --go_out=.
 go run calculator/calculator_client/client.go
 go run calculator/calculator_server/server.go
+
+#Protobuf for blog
+protoc blog/blogpb/blog.proto --go-grpc_out=. --go_out=.
+go run calculator/calculator_client/client.go
+go run calculator/calculator_server/server.go
